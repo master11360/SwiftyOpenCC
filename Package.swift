@@ -19,9 +19,7 @@ let package = Package(
         .target(
             name: "copencc",
             sources: [
-                "source.cpp",
-                "src",
-                "deps",
+                "deps/marisa-0.2.6",
             ],
             cxxSettings: [
                 .headerSearchPath("src"),

@@ -16,13 +16,6 @@ let package = Package(
             resources: [
                 .copy("Dictionary")
             ]),
-        .testTarget(
-            name: "OpenCCTests",
-            dependencies: ["OpenCC"],
-            resources: [
-                .copy("benchmark"),
-                .copy("testcases"),
-            ]),
         .target(
             name: "copencc",
             sources: [
